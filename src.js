@@ -1007,7 +1007,7 @@ async function getUserData(){
 }
 getUserData();
 
-// Fetch and Process Data ===
+// Fetch and Process Data
 function fetchUser(){
   return Promise.resolve({id:1, name:"Sara"});
 }
@@ -1046,3 +1046,4 @@ async function getData(){
   }catch(e){console.log("Err:",e);}
 }
 getData();
+
